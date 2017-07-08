@@ -5,13 +5,13 @@ using System.Text;
 
 namespace WindowsFormsApplication1
 {
-    public class Banner
+    public class Banner : Evento
     {
-        private string nombre;
+        /*private string nombre;
         private DateTime fechaInicio;
         private DateTime fechaFin;
         private DateTime horaInicio;
-        private DateTime horaFin;
+        private DateTime horaFin;*/
         private TipoBanner tipo;
         private string texto;
         private Rss rss;
