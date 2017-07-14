@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="WindowsFormsApplication1.Campaña">
-    <Position X="4" Y="2.25" Width="1.5" />
+    <Position X="4.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAA=</HashCode>
       <FileName>Campaña.cs</FileName>
@@ -11,21 +11,21 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="WindowsFormsApplication1.Imagen">
-    <Position X="4.5" Y="4.5" Width="1.5" />
+    <Position X="4.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Imagen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApplication1.Rss">
-    <Position X="2.5" Y="4" Width="1.5" />
+    <Position X="1" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>Rss.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApplication1.Banner">
-    <Position X="1" Y="2.25" Width="1.5" />
+    <Position X="2.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>Banner.cs</FileName>
@@ -36,29 +36,40 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="WindowsFormsApplication1.RangoHorarioContinuo">
-    <Position X="6.25" Y="1.25" Width="2" />
+    <Position X="7.25" Y="2" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAACAAAAEACAA=</HashCode>
       <FileName>RangoHorarioContinuo.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.231" />
   </Class>
   <Class Name="WindowsFormsApplication1.Evento">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="rangoTiempo" Type="WindowsFormsApplication1.RangoTiempo" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="1.062" />
+        <Point X="6.125" Y="1.062" />
+        <Point X="6.125" Y="1.063" />
+        <Point X="7.25" Y="1.063" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Evento.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rangoTiempo" />
+    </ShowAsAssociation>
   </Class>
-  <Interface Name="WindowsFormsApplication1.RangoTiempo" Collapsed="true">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+  <Interface Name="WindowsFormsApplication1.RangoTiempo">
+    <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>RangoTiempo.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="WindowsFormsApplication1.TipoBanner">
-    <Position X="0.75" Y="4.5" Width="1.5" />
+    <Position X="2.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TipoBanner.cs</FileName>
